@@ -17,10 +17,10 @@ function OurTeam() {
           <div className="ourteam-card">
             <div className="img-box">
               <div className="hover-box">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </div>
               <img src={ourteam1} alt="..." />
             </div>
@@ -32,10 +32,10 @@ function OurTeam() {
           <div className="ourteam-card">
             <div className="img-box">
             <div className="hover-box">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </div>
               <img src={ourteam2} alt="..." />
             </div>
@@ -47,10 +47,10 @@ function OurTeam() {
           <div className="ourteam-card">
             <div className="img-box">
             <div className="hover-box">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </div>
               <img src={ourteam3} alt="..." />
             </div>
