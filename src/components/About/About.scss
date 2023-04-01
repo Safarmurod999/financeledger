@@ -1,0 +1,122 @@
+.service {
+  text-align: center;
+  margin: 40px 0px 20px;
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    &__content {
+      width: calc(100% / 3 - 140px / 3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 15px;
+      span {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        /* identical to box height, or 165% */
+
+        text-align: center;
+
+        color: #333333;
+      }
+      p {
+        max-width: 362px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #333333;
+      }
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 67px;
+        height: 67px;
+        background: #28a745;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .service {
+    &__wrap {
+      gap: 30px;
+      &__content {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.solution {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  .left {
+    width: 50%;
+    background-image: url("../../assets/solutions.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .right {
+    width: 50%;
+    background-color: #28a745;
+    color: white;
+    padding: 84px 30px;
+    &-content {
+      max-width: 606px;
+    }
+    &-top {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 33px;
+      margin-bottom: 5px;
+    }
+    &-title {
+      font-weight: 300;
+      font-size: 38px;
+      line-height: 48px;
+      margin-bottom: 26px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 17px;
+    }
+    button {
+      padding: 11px 35px;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #ffffff;
+      transition: .3s;
+      &:hover{
+        background-color: #ffffff;
+        color: #28a745;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+    .solution{
+        .left, .right{
+            width: 100%;
+        }
+        .left{
+            height: 247px;
+        }
+    }
+}
