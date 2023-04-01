@@ -1,0 +1,24 @@
+footer {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15;
+  background-color: #333333;
+  color: #fff;
+}
+.link-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.link-box i {
+  font-size: 35px;
+  transition: 0.3s;
+}
+.link-box i:hover {
+  color: #0284d0;
+}
