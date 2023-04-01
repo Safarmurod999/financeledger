@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
   top: 0;
@@ -51,7 +51,7 @@ nav {
     background-color: rgba(42, 37, 37, 0.43);
 }
 
-@media (max-width:576px) {
+@media (max-width:760px) {
   nav{
     .nav__wrap{
       flex-direction: column;

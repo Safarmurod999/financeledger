@@ -33,5 +33,12 @@ header {
     line-height: 28px;
     background: #28a745;
     border-radius: 5px;
+    border: 1px solid #28a745;
+    transition: .3s;
+    &:hover{
+      color: #28a745;
+      border: 1px solid #28a745;
+      background-color: #fff;
+    }
   }
 }
